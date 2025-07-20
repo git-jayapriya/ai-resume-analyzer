@@ -9,7 +9,6 @@ pandas
 numpy
 sentence-transformers 
 openai
-os
 
 #to create virtual environment : 
 #python -m venv venv

@@ -9,6 +9,8 @@ sentence-transformers
 joblib
 rich 
 nltk
+python-dotenv
+openai
 
 #to create virtual environment : 
 #python -m venv venv

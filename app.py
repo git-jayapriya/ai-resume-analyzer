@@ -5,7 +5,7 @@ from utils.keyword_extractor import extract_keywords
 from utils.similarity_checker import match_skills, calculate_similarity 
 import nltk 
 import os
-#nltk.download('punkt')
+nltk.download('punkt')
 #nltk.download('wordnet')
 #nltk.download('stopwords')
 #nltk.download('omw-1.4') 

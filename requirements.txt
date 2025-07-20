@@ -1,15 +1,13 @@
-streamlit
+streamlit>=1.30
+openai
+nltk
+PyPDF2
+python-docx
+python-dotenv
 scikit-learn
 pandas
 numpy
-PyPDF2
-python-docx
-spacy
-sentence-transformers
-joblib
-rich 
-nltk
-python-dotenv
+sentence-transformers 
 openai
 os
 

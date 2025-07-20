@@ -11,6 +11,7 @@ rich
 nltk
 python-dotenv
 openai
+os
 
 #to create virtual environment : 
 #python -m venv venv

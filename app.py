@@ -3,7 +3,8 @@ import asyncio
 from utils.file_reader import extract_text_from_file
 from utils.keyword_extractor import extract_keywords
 from utils.similarity_checker import match_skills, calculate_similarity 
-import nltk
+import nltk 
+import os
 #nltk.download('punkt')
 #nltk.download('wordnet')
 #nltk.download('stopwords')

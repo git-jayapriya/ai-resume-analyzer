@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and local settings
+*.log
+*.env
+.env.*
+
+# Model and data files
+*.pkl
+*.h5
+*.pt
+*.joblib
+*.csv
+*.tsv
+*.json
+
+# Node dependencies (if any frontend work)
+node_modules/
+
+# LFS-tracked files (optional, if using Git LFS)
+*.dll
+*.lib
+
+# Streamlit cache
+.streamlit/

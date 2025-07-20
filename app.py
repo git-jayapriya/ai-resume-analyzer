@@ -3,12 +3,24 @@ import asyncio
 from utils.file_reader import extract_text_from_file
 from utils.keyword_extractor import extract_keywords
 from utils.similarity_checker import match_skills, calculate_similarity 
+#import nltk
+#nltk.download('punkt')
+#nltk.download('wordnet')
+#nltk.download('stopwords')
+#nltk.download('omw-1.4') 
+#nltk.data.path.append("./nltk_data")
+import os
 import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('stopwords')
-nltk.download('omw-1.4') 
-nltk.data.path.append("./nltk_data")
+
+# Set NLTK data download path explicitly (for Streamlit Cloud)
+nltk_data_dir = os.path.join(os.path.expanduser("~"), "nltk_data")
+os.makedirs(nltk_data_dir, exist_ok=True)
+nltk.data.path.append(nltk_data_dir)
+
+# Download required datasets
+nltk.download("punkt", download_dir=nltk_data_dir)
+nltk.download("wordnet", download_dir=nltk_data_dir)
+nltk.download("stopwords", download_dir=nltk_data_dir)
 
 # --- Manual Suggestions ---
 suggestions_data = {

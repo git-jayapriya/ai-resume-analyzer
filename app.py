@@ -2,7 +2,13 @@ import streamlit as st
 import asyncio
 from utils.file_reader import extract_text_from_file
 from utils.keyword_extractor import extract_keywords
-from utils.similarity_checker import match_skills, calculate_similarity
+from utils.similarity_checker import match_skills, calculate_similarity 
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('omw-1.4') 
+nltk.data.path.append("./nltk_data")
 
 # --- Manual Suggestions ---
 suggestions_data = {

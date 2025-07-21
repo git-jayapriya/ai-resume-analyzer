@@ -66,9 +66,8 @@ Team Name: TechSHEro
 
 ## 🌐 Live Demo
 
-🔗 [Click here to try the app](https://your-streamlit-link.streamlit.app)
 
-📂 [GitHub Repository](https://github.com/git-jayapriya/ai-resume-matcher)
+📂 [GitHub Repository](https://github.com/git-jayapriya/ai-resume-analyzer)
 
 ---
 
